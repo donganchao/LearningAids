@@ -1,5 +1,5 @@
-#define MAXSIZE 100			//¶¨Òå×î´ó³¤¶È
+ï»¿#define MAXSIZE 100			//å®šä¹‰æœ€å¤§é•¿åº¦
 typedef struct SeqList{
 	int data[MAXSIZE];
-	int length;	//length¼ÇÂ¼ÏßĞÔ±í×îºóÒ»¸öÔªËØÔÚÊı×éÖĞÎ»ÖÃ
+	int length;	//lengthè®°å½•çº¿æ€§è¡¨æœ€åä¸€ä¸ªå…ƒç´ åœ¨æ•°ç»„ä¸­ä½ç½®
 }SeqList;

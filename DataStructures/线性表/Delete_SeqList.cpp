@@ -1,5 +1,5 @@
-#include"SeqList.h"
-//É¾³ýLÖÐµÚi¸öÔªËØ
+ï»¿#include"SeqList.h"
+//åˆ é™¤Lä¸­ç¬¬iä¸ªå…ƒç´ 
 int deleteSeqList(SeqList &L,int i){
 	int k;
 	if(i<0 || i>=L.length)
