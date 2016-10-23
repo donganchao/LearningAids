@@ -1,5 +1,5 @@
-#include"SeqList.h"
-//ÔÚLµÄµÚi¸öÔªËØÇ°²åÈëÒ»¸öÔªËØx£¨ÕâÀï¼ÙÉèÊÇ¸öintĞÍÔªËØ£©
+ï»¿#include"SeqList.h"
+//åœ¨Lçš„ç¬¬iä¸ªå…ƒç´ å‰æ’å…¥ä¸€ä¸ªå…ƒç´ xï¼ˆè¿™é‡Œå‡è®¾æ˜¯ä¸ªintå‹å…ƒç´ ï¼‰
 int insertSeqList(SeqList &L,int x,int i){
 	int k;
 	if(i<0 || i>L.length || L.length==MAXSIZE){
