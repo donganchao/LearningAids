@@ -1,4 +1,4 @@
-// pr1.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+ï»¿// pr1.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
@@ -20,22 +20,22 @@ int _tmain(int argc, _TCHAR* argv[])
 		printf("Initialization succeeded!\n");
 	}
 
-	//²âÊÔInit_SeqListº¯Êı
+	//æµ‹è¯•Init_SeqListå‡½æ•°
 
 	int i,j,x;
 	x = 1;
 	for(i = 0; i<50; i++){
 		insertSeqList(*L,x++,i);
 	}
-	//ÓÃ²åÈëËã·¨µ¼ÈëÒ»¸ö1-50µÄ×ÔÈ»ÊıĞòÁĞ
+	//ç”¨æ’å…¥ç®—æ³•å¯¼å…¥ä¸€ä¸ª1-50çš„è‡ªç„¶æ•°åºåˆ—
 
 	insertSeqList(*L,101,2);
 	deleteSeqList(*L,45);
-	//²âÊÔInsert_SeqListºÍDelete_SeqListº¯Êı
+	//æµ‹è¯•Insert_SeqListå’ŒDelete_SeqListå‡½æ•°
 	
 	for(j=0; j<L->length; j++)
 		printf("%d\t",L->data[j]);
-	//¿ØÖÆÌ¨ÏÔÊ¾¼ìÑé½á¹û
+	//æ§åˆ¶å°æ˜¾ç¤ºæ£€éªŒç»“æœ
 
 	system("pause");
 	return 0;
