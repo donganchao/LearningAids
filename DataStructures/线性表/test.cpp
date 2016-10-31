@@ -7,6 +7,7 @@
 SeqList* initSeqList();
 bool insertSeqList(SeqList &L,int x,int i);
 bool deleteSeqList(SeqList &L,int i);
+int locateSeqList(SeqList &L,int x);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -33,8 +34,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	deleteSeqList(*L,45);
 	//测试Insert_SeqList和Delete_SeqList函数
 	
-	for(j=0; j<L->length; j++)
-		printf("%d\t",L->data[j]);
+	j = locateSeqList(*L,30);
+	//测试Locate_SeqList函数
+
+	for(int m=0; m<L->length; m++){
+		printf("%d\t",L->data[m]);
+	}
+	printf("元素在第%d个位置\n",j);
 	//控制台显示检验结果
 
 	system("pause");
