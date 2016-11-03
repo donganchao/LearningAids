@@ -13,14 +13,6 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	SeqList *L;
 	L = initSeqList();
-//	L = NULL;
-	if(L == NULL){
-		printf("Initialization failed!\n");
-	}
-	else{
-		printf("Initialization succeeded!\n");
-	}
-
 	//测试Init_SeqList函数
 
 	int i,j,x;
@@ -40,7 +32,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	for(int m=0; m<L->length; m++){
 		printf("%d\t",L->data[m]);
 	}
-	printf("元素在第%d个位置\n",j);
+	printf("该元素第一次出现在表的%d处\n",j);
 	//控制台显示检验结果
 
 	system("pause");

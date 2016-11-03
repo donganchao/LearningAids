@@ -1,5 +1,5 @@
-#include"SeqList.h"
-//²éÕÒË³Ğò±íÖĞµÚÒ»¸öÖµÎªxµÄÔªËØËùÔÚÎ»ÖÃ
+ï»¿#include"SeqList.h"
+//æŸ¥æ‰¾é¡ºåºè¡¨ä¸­ç¬¬ä¸€ä¸ªå€¼ä¸ºxçš„å…ƒç´ æ‰€åœ¨ä½ç½®
 
 int locateSeqList(SeqList &L,int x){
 	int i = 0;

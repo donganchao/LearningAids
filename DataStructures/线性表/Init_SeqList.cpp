@@ -5,12 +5,14 @@
 
 SeqList* initSeqList(){
 	SeqList *L = new SeqList;
-	if(L){
-		L->length = 0;
-		return L;
+	if(L == NULL){
+		printf("Initialization failed!\n");
 		}
-	else 
-		return NULL; //NULL在stdlib.h中定义
+	else{ 
+		L->length = 0;
+		printf("Initialization succeeded!\n");
+	}
+	return L;
 }
 
 

@@ -1,5 +1,7 @@
 ﻿#define MAXSIZE 100			//定义最大长度
 #include<stdlib.h>
+#include<stdio.h>
+
 
 typedef struct SeqList{
 #define MAXSIZE 100			//定义最大长度
