@@ -23,6 +23,7 @@ LinkList* deleteLinkList_i(LinkList *L,int i){
 		}
 		s = r->next;
 		r->next = s->next;
+		delete s;
 		return L;
 	}
 }
