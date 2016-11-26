@@ -14,7 +14,7 @@ LinkList* deleteLinkList_x(LinkList *L,int x){     //*L为头结点，假设元�
 		return L;
 	}
 	else{
-		printf("删除的元素不存在，删除失败！");
+		printf("删除的元素不存在，删除失败！\n");
 		return L;
 	}
 }

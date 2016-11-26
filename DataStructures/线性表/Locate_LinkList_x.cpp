@@ -4,7 +4,7 @@
 LinkList* locateLinkList_x(LinkList *L,int x){
 	LinkList *p;
 	p = L;
-	while(p->next != NULL || p->data != x){
+	while(p->next != NULL && p->data != x){
 		p = p->next;
 	}
 
@@ -12,7 +12,7 @@ LinkList* locateLinkList_x(LinkList *L,int x){
 		return p;
 	}
 	else{
-		printf("要查找的值在该链表不存在！");
+		printf("要查找的值在该链表不存在！\n");
 		return L;
 	}
 }

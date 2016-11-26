@@ -10,9 +10,10 @@ LinkList* deleteLinkList_i(LinkList *L,int i){
 		p = p->next;
 		n++;
 	}
+//	printf("%d\n",n);
 
 	if(i<=1||i>n){
-		printf("删除的位置不合理，删除失败！");
+		printf("删除的位置不合理，删除失败！\n");
 		return L;
 	}
 	else{
@@ -20,6 +21,7 @@ LinkList* deleteLinkList_i(LinkList *L,int i){
 		int j = 1;
 		while (j < i-1){    //找到要删除结点的前一个结点
 			r = r->next;
+			j++;
 		}
 		s = r->next;
 		r->next = s->next;

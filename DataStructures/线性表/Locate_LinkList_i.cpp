@@ -12,7 +12,7 @@ LinkList* locateLinkList_i(LinkList *L,int i){
 	}
 
 	if(i<=1 || i>n){
-		printf("查找位置不合理，查找失败！");
+		printf("查找位置不合理，查找失败！\n");
 		return L;
 	}
 	else{
